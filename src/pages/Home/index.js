@@ -10,21 +10,21 @@ const list = [
     id: 1,
     label: 'Conta a pagar 1',
     value: '140,90',
-    date: '17/09/2022',
+    date: '14/09/2022',
     type: 0 //despesa
   },
   {
     id: 2,
     label: 'venda de algo',
     value: '780,00',
-    date: '17/09/2022',
+    date: '22/09/2022',
     type: 1 //entrada / receita
   },
   {
     id: 3,
     label: 'Salario',
     value: '4.180,00',
-    date: '17/09/2022',
+    date: '03/10/2022',
     type: 1 //entrada / receita
   }
 ]
@@ -61,6 +61,8 @@ const styles = StyleSheet.create({
     marginLeft: 14,
     marginRight: 14,
     marginTop: 14,
+    marginBottom: 14,
+    alignContent: 'center'
   },
   list:{
     marginStart: 14,
